@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "username": "postgres",
+    "password": "root",
+    "database": "management",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root",
+    "database": "management",
+    "host": "localhost",
+    "port": 5024,
+    "dialect": "postgres",
+    "logging": true
+  },
+  "qa": {
+    "username": "postgres",
+    "password": "root",
+    "database": "cmanagement",
+    "host": "localhost",
+    "port": 5026,
+    "dialect": "postgres",
+    "logging": true
+  }
+}
